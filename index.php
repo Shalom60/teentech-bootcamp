@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeenTech Africa</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header class="main-header">
-        <h2>TeenTech.Africa</h2>
-        <nav class=".nav">
-            <ul class="desktop">
-                <li> <a href="#" class="home-link">Home</a> </li>
-                <li> <a href="register.html" class="btn">Register</a> </li>
-            </ul>
-
-            <a href="#" class="hamburger">
-                <img src="images/icon-hamburger.svg" alt="" srcset="">
-            </a>
-        </nav>
-    </header>
+<?php 
+include_once("lib/header.php");
+?>
 
     <div class="home">
         <div class="container">
@@ -33,7 +13,7 @@
                 <p>
                     The Bootcamp is gaired towards female tech enthusiast who are fired up to learn to code. It focuses on the foundations of web development, and seeks to foster a balanced ratio between guys and girls in tech.
                 </p>
-                <a href="register.html" class="btn">Register</a>
+                <a href="register.php" class="btn">Register</a>
                 
             </div>
             <div class="photos">
@@ -68,12 +48,9 @@
         <div class="applying">
             <h3>Who Should Apply</h3>
             <p>Only girls can apply. The bootcamp focuses on participants with no prior knowledge either by going through a training phase, or self learning. Irrespective of the previous fact, girls with previous trainings who seek to rekindle their passion for software development are encouraged to register and attend the bootcamp. Only 20 slots is available for registration.</p>
-            <a href="register.html" class="btn">Register Now</a>
+            <a href="register.php" class="btn">Register Now</a>
         </div>
     </div>
-    <hr>
-    <footer class="footer">
-        &copy; 2021 TeenTech Africa. All Right Reserved.
-    </footer>
-</body>
-</html>
+    <?php 
+include_once("lib/footer.php");
+?>
