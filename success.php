@@ -25,7 +25,7 @@ include_once("lib/header.php");
     <p id='message'>
       Congratulations, we will get back to you.
     </p>
-    <a href="#" id="contBtn">Continue</a>
+    <a href="index.php" id="contBtn">Continue</a>
   </div>
 </div>
 <?php 
