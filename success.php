@@ -23,7 +23,7 @@ include_once("lib/header.php");
   </div>
   <div id='lower-side'>
     <p id='message'>
-      Congratulations, your account has been successfully created.
+      Congratulations, we will get back to you.
     </p>
     <a href="#" id="contBtn">Continue</a>
   </div>
