@@ -475,11 +475,13 @@ h1 {
     margin-top: 2rem;
   }
   .dashboard th {
-    font-size: 1.3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
   }
   .dashboard td {
+    padding: 1rem;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .mobile-menu {
     display: block;
