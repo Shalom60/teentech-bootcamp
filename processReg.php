@@ -83,7 +83,7 @@ $_SESSION["error"]= "Invalid phone number" ;
 	
 
 	//saving the data into the database(folder) and redirecting to login page.
-	file_put_contents("db/clients/".$userObject['email'].".json", json_encode($userObject ));
+	file_put_contents("db/clients/".$userObject['id'].".json", json_encode($userObject ));
     
 	 $_SESSION["message"]= "Registration successful!";
 
