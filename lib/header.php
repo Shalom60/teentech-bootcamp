@@ -12,9 +12,9 @@
 
 ?> 
     
-    <header class="main-header">
+   <header class="main-header">
         <h2>TeenTech.Africa</h2>
-        <nav class=".nav">
+        <nav class="nav">
             <ul class="desktop">
                 <li> <a href="index.php" class="home-link">Home</a> </li>
                 <li> <a href="register.php" class="btn">Register</a> </li>
@@ -25,3 +25,10 @@
             </a>
         </nav>
     </header>
+    <nav class="mobile-menu inactive">
+        <ul>
+            <li> <a href="index.php" class="home-link">Home</a> </li>
+            <li> <a href="register.php">Register</a> </li>
+        </ul>
+    </nav>
+          
