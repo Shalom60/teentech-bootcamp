@@ -392,6 +392,7 @@ h1 {
   }
   .main-header {
     padding: 1rem 2rem;
+    width: 200%;
   }
   .main-header h2 {
     font-size: 1rem;
