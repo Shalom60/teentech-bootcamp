@@ -30,7 +30,7 @@ else{
 			   $$pswrdFromUser = password_verify($pswrd, $pswrdFromDb);
 			if($pswrdFromUser = $pswrdFromDb) {
 				//set time and redirect to dashboard  
-			
+			$_SESSION['loggedIn'] = true;
 				header('Location: dashboard.php');
 				die();
 			}
