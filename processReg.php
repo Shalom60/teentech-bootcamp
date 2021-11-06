@@ -7,12 +7,12 @@ $errorCount = 0;
 $name = $_POST['fullname'] != ""? $_POST['fullname'] : $errorCount++ ;
 $email = $_POST['email'] != ""? $_POST['email'] : $errorCount++ ;
 $phone = $_POST['phone'] != ""? $_POST['phone'] : $errorCount++ ;
-$dob = $_POST['dob'] != ""? $_POST['dob'] : $errorCount++ ;
+// $dob = $_POST['dob'] != ""? $_POST['dob'] : $errorCount++ ;
 
 $_SESSION['fullname'] = $name;
 $_SESSION['email'] = $email;
 $_SESSION['phone'] = $phone;
-$_SESSION['dob'] = $dob;
+// $_SESSION['dob'] = $dob;
 
 
 // data, name, phone and email validation
@@ -68,7 +68,6 @@ $_SESSION["error"]= "Invalid phone number" ;
 		
 		'email' =>$email,
 		'phone' =>$phone,
-		'dob' =>$dob,
 	
 	];
 	// $_SESSION["reg_date"] = $reg_date;
