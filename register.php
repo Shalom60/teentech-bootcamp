@@ -42,15 +42,7 @@ include_once("lib/header.php");
 	} ?>
                      type="number" name="phone" placeholder="Phone">
                 </div>
-                <div class="input_">
-                    <label for="date">DOB</label>
-                    <input <?php
-	if(isset($_SESSION['dob']) && !empty($_SESSION['dob'])){
-		echo "value=" .$_SESSION['dob'];
-		$_SESSION['dob']. "";
-	} ?>
-                     type="date" name="dob" placeholder="Date of Birth" value="">
-                </div>
+                
                 <input type="submit" value="REGISTER" class="btn">
             </form>
         </div>
