@@ -392,7 +392,14 @@ h1 {
   }
   .main-header {
     padding: 1rem 2rem;
-    width: 200%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
   }
   .main-header h2 {
     font-size: 1rem;
